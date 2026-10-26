@@ -1,3 +1,5 @@
+// Usage: node p1.js
+
 function p1() {
     var inputValues = [21, 400, 8, -3, 77, 99, -16, 55, 111, -36, 28];
     console.log("Before: ", inputValues);
@@ -61,11 +63,11 @@ function p1() {
         */
         for (var i = 0; i < inputValues.length - j - 1; i++) {
             if (inputValues[i] > inputValues[i+1]) {
-                var tmp = inputValues[i];
+                var tmp = inputValues[i]; // store the larger value into tmp
 
-                inputValues[i] = inputValues[i+1];
+                inputValues[i] = inputValues[i+1]; // move the smaller value into front
 
-                inputValues[i+1] = tmp;
+                inputValues[i+1] = tmp; // put the larger value on the back (i - 1)
             }
         }
     }

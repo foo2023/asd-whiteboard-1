@@ -1,4 +1,4 @@
-
+// Usage: node p2.js
 function iter_generation(start, end) {
     // generation the value (start, end) provided in parameters and iteration to get all the values between them
     // place them inside the array and return
