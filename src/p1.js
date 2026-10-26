@@ -1,6 +1,6 @@
 function p1() {
     var inputValues = [21, 400, 8, -3, 77, 99, -16, 55, 111, -36, 28];
-    console.log(inputValues);
+    console.log("Before: ", inputValues);
 
 
 
@@ -70,9 +70,8 @@ function p1() {
         }
     }
 
-    console.log(inputValues);
+    console.log("After sorting ASC: ", inputValues);
 
 }
 
 p1();
-module.exports = { p1 };
