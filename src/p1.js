@@ -1,7 +1,5 @@
-// Usage: node p1.js
-
-function p1() {
-    var inputValues = [21, 400, 8, -3, 77, 99, -16, 55, 111, -36, 28];
+// Usage: node p1.test.js
+export function p1(inputValues) {
     console.log("Before: ", inputValues);
 
 
@@ -75,5 +73,3 @@ function p1() {
     console.log("After sorting ASC: ", inputValues);
 
 }
-
-p1();
