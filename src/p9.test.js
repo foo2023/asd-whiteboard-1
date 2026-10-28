@@ -29,7 +29,7 @@ const CASES = [
     ["E", "D", "E --> F --> B --> D"],
     ["A", "H", "False"], // H is not connected
     ["H", "A", "False"],
-    ["F", "A", "F --> B --> A"], // same as above, make sure visited status is reset between calls
+    ["F", "A", "F --> B --> A"],
 ];
 
 for (const [from, to, expected] of CASES) {
